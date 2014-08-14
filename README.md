@@ -19,3 +19,5 @@ Steps
 3. Now, type the following command to run the application
 	grunt server
 ```
+
+[ ![Codeship Status for Gauravkr/ResponsiveDashboard](https://www.codeship.io/projects/9c92d200-062c-0132-2539-7acbbe3e78dc/status)](https://www.codeship.io/projects/31057)
