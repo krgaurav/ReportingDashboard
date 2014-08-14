@@ -10,7 +10,7 @@ Software Requirements
 2. Bower package ( npm install bower -g )
 
 Steps
----------
+--------
 ```
 1. Clone the repository using following command
 	git clone https://github.com/Synerzip/ClientPOCs.git && cd ClientPOCs\financialEngine\reportingDashboard
