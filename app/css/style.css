@@ -1,0 +1,143 @@
+.titleHeader{
+    color: #101010;
+    font-family: inherit;
+    float: left;
+    margin-left: 10px;
+}
+.company-icon{
+    height: 25px;
+    width: auto;
+    display:inline;
+    float: left;
+    margin-top: 7px;
+    border: 1px solid #101010;
+}
+.navbar-header{
+
+}
+#myNavbar{
+    margin-top: 33px;
+
+}
+.titleHeaderDiv{
+    /*margin-left: 107px;*/
+    background-color: white;
+}
+#headerToolbar{
+    margin-top: 30px;
+}
+
+#resetButton{
+    padding: 3px;
+}
+#reset{
+    margin-left: 15px;
+}
+#pieChartcontainer, #lineChartcontainer{
+    min-width: 350px;
+    max-width: 555px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+.pagination {
+    margin: 0 ! important;
+}
+div.dataTables_length select {
+    width: 75px;
+}
+
+div.dataTables_info {
+    padding-top: 8px;
+}
+
+div.dataTables_paginate {
+    float: right;
+    margin: 0;
+    margin-right: 17px;
+}
+
+table {
+    margin: 1em 0;
+    clear: both;
+}
+div.dataTables_filter label {
+    font-weight: normal;
+    float: right;
+    margin-right: 20px;
+}
+div.dataTables_length label {
+    font-weight: normal;
+    float: left;
+    text-align: left;
+    margin-left: 17px;
+}
+.dataTables_info{
+    margin-left: 17px;
+}
+@media screen and (min-width: 768px){
+    .dataTable_paginate{
+        float: left;
+        margin: 0;
+        margin-left: 17px;
+    }
+}
+#dataTable_length{
+    margin-left: 53px;
+    margin-top: -27px;
+}
+@media
+only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    /* Force table to not be like tables anymore */
+    #tableContainer table,
+    #tableContainer thead,
+    #tableContainer tbody,
+    #tableContainer th,
+    #tableContainer td,
+    #tableContainer tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #tableContainer thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #tableContainer tr { border: 1px solid #ccc; }
+
+    #tableContainer td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #tableContainer td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    td:nth-of-type(1):before { content: "Name"; }
+    td:nth-of-type(2):before { content: "Position"; }
+    td:nth-of-type(3):before { content: "Office"; }
+    td:nth-of-type(4):before { content: "Extn."; }
+    td:nth-of-type(5):before { content: "Start date"; }
+    td:nth-of-type(6):before { content: "Salary"; }
+}

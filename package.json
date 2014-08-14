@@ -1,0 +1,29 @@
+{
+  "name": "FinancialEngine",
+  "version": "0.0.1",
+  "description": "POC for the Financial Engine Client for which show interactive chats and grid in a dashboard",
+  "main": "index.js",
+  "scripts": {
+    "install": "bower install",
+    "test": ""
+  },
+  "author": "Kumar Gaurav <kumar.gaurav@synerzip.com>",
+  "license": "ISC",
+  "engines": {},
+  "dependencies": {
+    "bower": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-connect-proxy": "^0.1.10",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-yuidoc": "^0.5.2",
+    "grunt-express": "*",
+    "grunt-open": "*"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "*"
+  }
+}
