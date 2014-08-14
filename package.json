@@ -4,8 +4,7 @@
   "description": "POC for the Financial Engine Client for which show interactive chats and grid in a dashboard",
   "main": "index.js",
   "scripts": {
-    "install": "bower install",
-    "test": ""
+    
   },
   "author": "Kumar Gaurav <kumar.gaurav@synerzip.com>",
   "license": "ISC",
