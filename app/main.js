@@ -6,15 +6,15 @@
 requirejs.config({
 
     paths : {
-        jquery : "components/jquery/jquery",
-        bootstrap: "components/bootstrap/dist/js/bootstrap",
-        highcharts: "components/highcharts-release/highcharts",
+        jquery : "js/lib/jquery",
+        bootstrap: "js/lib/bootstrap",
+        highcharts: "js/lib/highcharts",
         exporting: "js/lib/exporting",
         datatables: "js/lib/jquery.dataTables",
-        domReady: "components/domReadyRequireJS/domReady",
-        underscore:"components/underscore/underscore",
+        domReady: "js/lib/domReady",
+        underscore:"js/lib/underscore",
         dataTableBootStrap:"js/lib/dataTables.bootstrap",
-        requirejs: "components/requirejs/require",
+        requirejs: "js/lib/require",
         "application" : 'js/app'
     },
 
